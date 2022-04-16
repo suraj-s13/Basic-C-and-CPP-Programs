@@ -4,26 +4,26 @@ using namespace std;
 
 class arthamatics
 {
-    int a;
-    int b;
+    int A;
+    int B;
 
 public:
     arthamatics(int a, int b)
     {
-       this-> a = a;
-       this-> b = b;
+        this->A = a;
+        this->B = b;
     }
- 
+
     int add()
     {
         int e;
-        e = a + b;
+        e = A + B;
         return e;
     }
     int sub()
     {
         int e;
-        e = a - b;
+        e = A - B;
         return e;
     }
 };

@@ -36,15 +36,17 @@ void binary::onces(void)
         {
             s.at(i) = '1';
         }
-        else {(s.at(i) = '1');
-        s.at(i) = '0';}
-        
+        else
+        {
+            (s.at(i) = '1');
+            s.at(i) = '0';
+        }
 }
 
-
 void binary::display(void)
-{   
-    cout<<endl<<"Display your binary number"<<endl;
+{
+    cout << endl
+         << "Display your binary number" << endl;
     for (int i = 0; i < s.length(); i++)
     {
         cout << s.at(i);

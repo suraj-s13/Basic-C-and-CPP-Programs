@@ -3,13 +3,12 @@ using namespace std;
 
 class dog
 {
-    public:
+public:
     int age;
     char name;
-    
-}
-int main()
+
+} int main()
 {
-    
+
     return 0;
 }
